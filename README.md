@@ -3,6 +3,7 @@
 A simple e-commerce demo built with **React** to practice component design, state management, API fetching, routing, and testing.  
 This project simulates a small shop where users can browse products, add them to a cart, and adjust quantities.
 
+[Live preveiw](https://top-cart-8c5wsoyjt-eles-projects-3336e2c1.vercel.app/)
 ---
 
 ## 🚀 Features
