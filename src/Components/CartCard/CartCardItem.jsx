@@ -2,6 +2,8 @@ import React, { StrictMode } from 'react';
 import './CartCardItem.css'
 import { useState } from 'react'
 import {useOutletContext} from "react-router"
+import trash from '../../assets/trash.png';
+import carticon from '../../assets/carticon.png';
 
 
 function CardItem({item}) {
@@ -36,9 +38,9 @@ function CardItem({item}) {
                     <input type="number" placeholder={quantity} onChange={(e) => setQuantity(Number(e.target.value))}></input>
                     <button className="cartQuantityBtn" onClick={(e) => {e.preventDefault(); handleQuantityIncrease() }}>+</button>
                     <button className="addToCartBtn" onClick={() => handleToCart(item, quantity)}>
-                    <img src={"./src/assets/carticon.png"} alt="carticon" className="cartIcon" />
+                    <img src={carticon} alt="carticon" className="cartIcon" />
                     </button>
-                    <img src={"./src/assets/trash.png"} alt="trash" className="trashIcon" onClick={() => removeFromCart(item)} />
+                    <img src={trash} alt="trash" className="trashIcon" onClick={() => removeFromCart(item)} />
                 </form>
 
             </div>

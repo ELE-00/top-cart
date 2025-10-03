@@ -2,6 +2,7 @@ import React, { StrictMode } from 'react';
 import './ProductCardItem.css'
 import { useState } from 'react'
 import {useOutletContext} from "react-router"
+import carticon from '../../assets/carticon.png';
 
 
 function CardItem({item}) {
@@ -40,7 +41,7 @@ function CardItem({item}) {
                         <input type="number" placeholder={quantity} onChange={(e) => setQuantity(Number(e.target.value))}></input>
                         <button className="quantityBtn" onClick={(e) => {e.preventDefault(); handleQuantityIncrease() }}>+</button>
                         <button className="addToCartBtn" onClick={() => handleToCart(item, quantity)}>
-                        <img src={"./src/assets/carticon.png"} alt="carticon" className="cartIcon" />
+                        <img src={carticon} alt="carticon" className="cartIcon" />
                         </button>
                     </form>
                 </div>
