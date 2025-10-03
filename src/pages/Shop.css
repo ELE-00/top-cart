@@ -1,0 +1,35 @@
+
+.shopWrapper{
+    max-width: 1980px;
+}
+
+
+.filterContainer{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 10px;
+}
+
+.productGrid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    height: 10vh;
+    height: auto;
+}
+
+
+.filtertn {
+    height: 3rem;
+    width: 10rem;
+    font-size: 1.2rem;
+    background-color: rgb(225, 225, 225);
+    color: black;
+    border: none;
+}
+
+.filtertn:hover{
+    background-color: rgb(164, 164, 164);
+    color: rgb(197, 197, 197); 
+}

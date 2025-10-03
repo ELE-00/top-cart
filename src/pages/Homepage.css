@@ -1,0 +1,41 @@
+
+
+.homepageWrapper{
+  display: flex;
+  flex-direction: column;
+  width: 100%;     /* takes 100% of parent */
+  max-width: 100vw;/* prevent overshooting */
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  width: 1980px;
+  
+  
+}
+
+.heroImageWrapper{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+.heroImageWrapper img{
+    width: 100%;  
+    object-fit: cover; 
+    display: block;  
+
+}
+
+.homeContentWrapper{
+    width: 60%;
+    margin: 2rem;
+    /* border: 3px solid rgb(47, 255, 116); */
+}
+
+
+.shopLink{
+    margin-top: 1rem;
+    text-decoration: underline;
+}

@@ -1,0 +1,15 @@
+
+.CartfilterContainer{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 10px;
+}
+
+.CartproductGrid{
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr;
+    height: 10vh;
+    height: auto;
+}

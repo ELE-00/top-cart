@@ -1,0 +1,72 @@
+.CartItemCard {
+  display: flex;
+  padding: 1rem;
+  height: auto;
+  gap: 1rem;
+  text-decoration: none;
+  color: inherit;
+  align-items: center;
+  border: 1px solid rgb(0, 0, 0);
+
+
+}
+
+.CartProductImage {
+  height: 70px;
+  min-height: 350px;
+  object-fit: contain;
+  background: rgb(255, 255, 255);
+  padding: 3rem;
+  border: 1px solid rgb(183, 183, 183);
+}
+
+.Cartdetails {
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+  text-align: left;
+  
+}
+
+.Cartdetails h3 {
+  font-size: 1rem;
+}
+
+.Cartdetails p {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+
+input{
+  background-color: white;
+  color: black;
+  width: 55px;
+  text-align: center;
+
+
+}
+
+.CartquantityForm{
+  display: flex;
+  margin-top: 10px;
+}
+
+form img{
+  margin-left: 20px;
+}
+
+.CartItemCard .trashIcon{
+  width: 30px;
+  height: 30px;
+
+}
+
+
+.cartQuantityBtn{
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border: none;
+}
